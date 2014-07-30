@@ -7,6 +7,6 @@ Package.on_use(function (api, where) {
     api.export('mathjs');
   }
   where = where || ['client', 'server'];
-  api.add_files('lib/mathjs/dist/math.min.js', where);
+  api.add_files('mathjs/dist/math.min.js', where);
   api.add_files('export-mathjs.js', where);
 });
