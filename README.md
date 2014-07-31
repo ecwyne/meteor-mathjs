@@ -22,11 +22,9 @@ Powerful and easy to use.
 
 ## Usage
 
-Math.js can be installed using npm or bower, or by [downloading](http://mathjs.org/download.html) the library.
-The library can be used in both node.js and in the browser.
-See the [Getting Started](http://mathjs.org/docs/getting_started.html) for a more detailed tutorial. To install math.js using npm:
+Math.js can be installed using mrt.
 
-    npm install mathjs
+    mrt add mathjs
 
 Math.js can be used similar to JavaScript's built-in Math library. Besides that,
 math.js can evaluate
@@ -35,8 +33,6 @@ and supports
 [chained operations](http://mathjs.org/docs/chained_operations.html).
 
 ```js
-// load math.js
-var math = require('mathjs');
 
 // functions and constants
 math.round(math.e, 3);            // 2.718
@@ -62,50 +58,9 @@ math.select(3)
 
 ## Documentation
 
-- [Getting Started](http://mathjs.org/docs/getting_started.html)
 - [Examples](http://mathjs.org/examples/index.html)
 - [Overview](http://mathjs.org/docs/index.html)
 - [History](http://mathjs.org/history.html)
-
-
-## Build
-
-First clone the project from github:
-
-    git clone git://github.com/josdejong/mathjs.git
-    cd mathjs
-
-Install the project dependencies:
-
-    npm install
-
-Then, the project can be build by executing the build script via npm:
-
-    npm run build
-
-This will build the library math.js and math.min.js from the source files and
-put them in the folder dist.
-
-
-## Test
-
-To execute tests for the library, install the project dependencies once:
-
-    npm install
-
-Then, the tests can be executed:
-
-    npm test
-
-To test code coverage of the tests:
-
-    npm run coverage
-
-To see the coverage results, open the generated report in your browser:
-
-    ./coverage/lcov-report/index.html
-
-
 
 
 ## License
