@@ -1,6 +1,6 @@
 ![math.js](https://raw.github.com/josdejong/mathjs/master/img/mathjs.png)
 
-[http://mathjs.org](http://mathjs.org)
+[http://mathjs.org](http://mathjs.org) Original Documentation
 
 Math.js is an extensive math library for JavaScript and Node.js.
 It features a flexible expression parser and offers an integrated solution
