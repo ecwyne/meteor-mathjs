@@ -1,8 +1,0 @@
-{
-  "name": "mathjs",
-  "description": "Mathjs, An extensive math library for JavaScript, packaged for Meteor. See http://mathjs.org.",
-  "homepage": "https://github.com/ecwyne/meteor-mathjs",
-  "author": "Eric Wyne <ecwyne@gmail.com>",
-  "version": "0.25.0",
-  "git": "https://github.com/ecwyne/meteor-mathjs.git"
-}
