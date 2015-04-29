@@ -22,9 +22,9 @@ Powerful and easy to use.
 
 ## Usage
 
-Math.js can be installed using mrt.
+Math.js can be installed using Meteor add.
 
-    mrt add mathjs
+    meteor add ecwyne:mathjs
 
 Math.js can be used similar to JavaScript's built-in Math library. Besides that,
 math.js can evaluate
