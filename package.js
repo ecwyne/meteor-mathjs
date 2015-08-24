@@ -1,6 +1,6 @@
 Package.describe({
   summary: 'Mathjs, An extensive math library for JavaScript, packaged for Meteor. See http://mathjs.org.',
-  version: '1.6.0_2',
+  version: '2.1.1',
   git: 'https://github.com/ecwyne/meteor-mathjs',
   name: 'ecwyne:mathjs'
 });
